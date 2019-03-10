@@ -22,4 +22,3 @@ RUN nvim -c 'call dein#install() | q' \
     && nvim -c 'call dein#update()  | q' \
     && nvim -c 'UpdateRemotePlugins | q' 
 
-CMD [ "bash" ]
