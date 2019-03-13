@@ -1,0 +1,13 @@
+[user]
+	email = em711th@icloud.com
+	name = MyznEiji
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	excludesfile = /root/.gitignore_global
+
+
+[remind]
+  paths = /root/eiji_myzn/projects/memo,/root/eiji_myzn/projects/python/vocabulary_test,/root/eiji_myzn/bin, /root/eiji_myzn/.gitconfig
+
+
+[init]
