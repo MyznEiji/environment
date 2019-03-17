@@ -19,7 +19,7 @@ $ docker image build -t eijimyzn/env:1.1.2 .
 ## Container run
 
 ```bash
-$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/ash
+$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/bash
 ```
 
 <br /><br />
