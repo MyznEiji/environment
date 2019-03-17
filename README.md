@@ -9,7 +9,7 @@
 <br />
 
 ```bash
-$ docker image build -t eijimyzn/env:1.1.1 .
+$ docker image build -t eijimyzn/env:1.1.2 .
 ```
 
 <br />
@@ -19,7 +19,7 @@ $ docker image build -t eijimyzn/env:1.1.1 .
 ## Container run
 
 ```bash
-$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.1 /bin/ash
+$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/ash
 ```
 
 <br /><br />
@@ -41,12 +41,8 @@ $ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eij
 <br />
 
 ```bash
-<<<<<<< HEAD
 $ git config --global user.email myname@example.com
 $ cp -r ~/eiji_myzn/.ssh ~/.
-=======
-$ export EMAIL="MY_EMAIL@EMAIL.COM:$EMAIL"
->>>>>>> 195289e... version 1.1.1
 ```
 
 <br /><br />
