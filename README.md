@@ -19,7 +19,7 @@ $ docker image build -t eijimyzn/env:1.1.2 .
 ## Container run
 
 ```bash
-$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/ash
+$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/bash
 ```
 
 <br /><br />
@@ -80,7 +80,7 @@ github.com:
 
 1. Create SSH key
 The encryption strength is strong and the encryption strength is 4096.
-```
+```bash
 $ ssh-keygen -t rsa -b 4096 -C "hogehoge@fuga.com"
 # -t 暗号化方式を指定
 # -b 暗号化強度を指定
@@ -98,7 +98,7 @@ Your public key has been saved in id_rsa_github.pub.
 
 2. Confirm SSH key
 
-```
+```bash
 $ ls -l /Users/ts/.ssh
 -rw-------  1 ts  staff   938  9 15 22:53 config
 -rw-------  1 ts  staff  3326 11  8 21:52 id_rsa_github # 秘密鍵
@@ -122,11 +122,11 @@ $ ls -l /Users/ts/.ssh
 <br />
 
 5. Set config
-```
+```bash
 $ vim /Users/ts/.ssh/config
 ```
 
-```
+```bash
 Host github
   HostName github.com
   IdentityFile ~/.ssh/id_rsa_github #秘密鍵を指定
@@ -139,7 +139,7 @@ Host github
 
 6. Register private key in ssh-agent
 
-```
+```bash
 ### ssh-agentが動作しているか確認
 $ eval "$(ssh-agent -s)"
 Agent pid 32047
@@ -154,7 +154,7 @@ Identity added: /Users/ts/.ssh/id_rsa_github (/Users/ts/.ssh/id_rsa_github)
 
 7. Connection check
 
-```
+```bash
 $ ssh -T git@github.com
 Hi mackerel7! You've successfully authenticated, but GitHub does not provide shell access.
 ```
