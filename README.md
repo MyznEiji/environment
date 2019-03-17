@@ -12,7 +12,17 @@ $ docker container run -it --name env -h eiji_myzn v $HOME:/root/eiji_myzn  eiji
 ## DockerHub
 [eijimyzn/env](https://cloud.docker.com/repository/docker/eijimyzn/env/general)
 
+
+
 ## Setting
+
+
+### Environment
+```
+$ export EMAIL="MY_EMAIL@EMAIL.COM:$EMAIL"
+```
+
+
 ### hub
 
 1. open GitHub on browser
