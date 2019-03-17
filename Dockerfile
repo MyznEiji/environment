@@ -11,6 +11,8 @@ RUN apk update && apk upgrade && apk add tmux \
     linux-headers \
     libc-dev \
     neovim \
+    util-linux \
+    openssh \
     # pip3関係をインストール
     && pip3 install neovim powerline-status \
     && pip3 install --upgrade pip
