@@ -43,6 +43,10 @@ $ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eij
 ```bash
 $ git config --global user.email myname@example.com
 $ cp -r ~/eiji_myzn/.ssh ~/.
+$ vi 
+:call dein#update() 
+:UpdateRemotePlugins 
+:CheckHealth
 ```
 
 <br /><br />
