@@ -4,25 +4,41 @@
 
 <br />
 
-## Image build
 
-<br />
 
-```bash
-$ docker image build -t eijimyzn/env:1.1.2 .
-```
+## Installation
 
-<br />
+### Alpine 3.9
 
-<br />
-
-## Container run
+Image build && Container run
 
 ```bash
-$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.2 /bin/bash
+$ git clone git@github.com:MyznEiji/environment.git
+$ cd environment/environment_alpine39
+$ docker image build -t eijimyzn/env:1.1.3 .
+$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.3 /bin/bash
 ```
 
-<br /><br />
+
+
+
+
+### Ubuntu 18.04
+
+Image build && Container run
+
+```bash
+$ git clone git@github.com:MyznEiji/environment.git
+$ cd environment/environment_ubuntu1804
+$ docker image build -t eijimyzn/env:1.1.3 .
+$ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.3 /bin/bash
+```
+
+
+
+<br />
+
+<br />
 
 ## DockerHub
 
@@ -46,7 +62,14 @@ $ cp -r ~/eiji_myzn/.ssh ~/.
 $ vi 
 :call dein#update() 
 :UpdateRemotePlugins 
+
+
+# Check dein
+$ vi
 :CheckHealth
+i (chenge mode)
+<Ctr + u> → <Ctr + g>
+
 ```
 
 <br /><br />
