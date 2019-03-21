@@ -6,7 +6,7 @@
 
 
 [remind]
-  paths = /root/eiji_myzn/projects/memo,/root/eiji_myzn/projects/python/vocabulary_test,/root/eiji_myzn/bin, /root/eiji_myzn/projects/environment
+  paths = /root/eiji_myzn/projects/memo,/root/eiji_myzn/projects/python/vocabulary_test,/root/eiji_myzn/bin,/root/eiji_myzn/projects/environment,/root/eiji_myzn/projects/algorithm
 
 
 [init]
