@@ -23,4 +23,4 @@ alias sbp='source ~/.bash_profile'
 alias sbr='source ~/.bashrc'
 alias sba='source ~/.bash_aliases'
 
-
+alias python3="python3.7"

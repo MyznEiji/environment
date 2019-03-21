@@ -1,4 +1,4 @@
 environment_alpine39/root/.config/hub
 environment_alpine39/root/.ssh
-environment_ubuntu1604/root/.config/hub
-environment_ubuntu1604/root/.ssh
+environment_ubuntu1804/root/.config/hub
+environment_ubuntu1804/root/.ssh
