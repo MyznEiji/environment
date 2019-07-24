@@ -15,7 +15,7 @@ Image build && Container run
 ```bash
 $ git clone git@github.com:MyznEiji/environment.git
 $ cd environment/environment_alpine39
-$ docker image build -t eijimyzn/env:1.1.3 .
+$ docker image build -t eijimyzn/env:1.1.2 .
 $ docker container run -it --name env -h eiji_myzn -v $HOME:/root/eiji_myzn  eijimyzn/env:1.1.3 /bin/bash
 ```
 
