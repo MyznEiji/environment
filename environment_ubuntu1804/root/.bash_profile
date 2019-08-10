@@ -4,8 +4,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # git
 
 # スクリプト読み込み
-source $HOME/.config/.git/.git-completion.bash
-source $HOME/.config/.git/.git-prompt.sh
+source $HOME/.config/git/.git-completion.bash
+source $HOME/.config/git/.git-prompt.sh
 
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
